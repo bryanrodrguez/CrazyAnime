@@ -1,4 +1,4 @@
 # CrazyAnime
 Store Website 
 
-For my parents and their SME
+For my parents and their Pyme.
