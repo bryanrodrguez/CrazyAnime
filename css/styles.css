@@ -305,19 +305,22 @@ h3{
 }
 @media(min-width:768px) {
     .bloques{
-        grid-template-columns: repeat(4,1fr);
+        grid-template-columns: repeat(2,1fr);
     }
     
 }
-@media(min-width:350px) {
-
+@media(min-width:150px) {
+  
     .producto{
-        padding: 10px;
+        width: 100%;
 
     }
+    .header{
+        width: 100%;
+    }
     .producto__nombre,.producto__precio{
-        line-height: 8px;
-        font-size: 8px;
+        line-height: 5px;
+        font-size: 5px;
     }
     
 }
@@ -327,10 +330,16 @@ h3{
         padding: 1rem;
     }
     .producto__nombre,.producto__precio{
+        line-height: 18px;
         font-size: 1.6rem;
+    }
+    .navegacion.navegacion__enlace{
+        font-size:150px;
+
     }
    
 }
+
 
 .bloque{
     text-align: center;
@@ -372,4 +381,29 @@ h3{
 	background:#05cfe6;
 	font-weight:bold;
     color: #000000;
+}
+
+@media(min-width:120px) {
+    header{
+        width: 100%;;
+    }
+    .navegacion__enlace{
+        font-size: 10px;
+        font-family: 'Press Start 2P', cursive;
+    }
+    
+}
+@media(min-width:420px) {
+    .navegacion__enlace{
+        font-size: 20px;
+
+    }
+    
+}
+.elhead{
+    width: 100%;
+}
+h1{
+    margin-top: 200px;
+    font-family: 'Press Start 2P', cursive;
 }
